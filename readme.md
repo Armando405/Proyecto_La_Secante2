@@ -1,14 +1,15 @@
-# Nuevo
+# Método numérico la secante
 
-Este es mi proyecto: Secate por Armando Plascencia.
+Solución numérica para ecuaciones no lineales.
 
 ## Introduccion
 
 El método númerico de la secante permite resolver ecuaciones no lienales aproximándose a una solución 
 por medio de varias iteraciones con valores asignados de x0, x1 y x2.
+Es una variación del método numérico de Newton-Raphson, usando rectas secantes a la función para aproximar una solución.
 
 ## Compilar
-Para compilar seguir el siguiente comando:
+Para compilar el código debe ingresar el siguiente comando:
 
 > make run
 
@@ -21,7 +22,7 @@ Elegir entre una u otra licencia:
 
 ## Desarrolladores 
 
-Este proyecto es ideado y desarrallodado:
+Este proyecto es ideado y desarrallodado por:
 
 - Armando Plascencia San Juan
 
