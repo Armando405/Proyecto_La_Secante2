@@ -1,0 +1,22 @@
+@startuml secante
+Secante *--  Calculadora
+Secante o--  Calculadora
+class Secante{
+- int iteracionesMaximas
+- double x1
+- double x2
++ Secante(double x0, double x1, int iterMax)
++ calcularFuncion(double x): double
++ imprimirEvaluaciones(): void
++ imprimirTabla(): void
+}
+class Calculadora{
+- double inicio
+- double fin
+- int numPuntos
+- int numFix
++ ingresarRango(): void
++ calcularFuncion(double x): double
++ imprimirTabla():void
+}
+@enduml
